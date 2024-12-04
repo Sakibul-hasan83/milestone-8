@@ -1,15 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import CreateNav from './components/CreateNav'
+import DaisyNav from './components/DaisyNav'
+import Link from './components/Link'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <button className='bg-green-400'>Button</button>
-      
+     
+     <DaisyNav></DaisyNav>
+
+     <CreateNav></CreateNav>
+
+ 
+
     </>
   )
 }
